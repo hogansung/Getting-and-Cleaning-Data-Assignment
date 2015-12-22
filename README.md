@@ -2,16 +2,16 @@
 
 ## Files
 ### File Structure
--  CodeBook.md
--  README.md
+-  [CodeBook.md](https://github.com/wrangle1005/Getting-and-Cleaning-Data-Assignment/blob/master/CodeBook.md)
+-  [README.md](https://github.com/wrangle1005/Getting-and-Cleaning-Data-Assignment/blob/master/README.md)
 -  UCI HAR Dataset (must exist)
--  run_analysis.R
+-  [run_analysis.R](https://github.com/wrangle1005/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)
 
 ### Download Dataset
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[Human Activity Recognition Using Smartphones Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-## Library Dependency
-### R Library
+## Libraries
+### R Library Dependency
 - library(data.table)
 - library(dplyr)
 
