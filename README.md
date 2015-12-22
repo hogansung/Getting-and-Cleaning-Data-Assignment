@@ -1,16 +1,17 @@
 # Getting-and-Cleaning-Data-Assignment
 
-## File Structure
-.
-├── CodeBook.md
-├── README.md
-├── UCI HAR Dataset (must exist)
-└── run_analysis.R
+## Files
+### File Structure
+-  CodeBook.md
+-  README.md
+-  UCI HAR Dataset (must exist)
+-  run_analysis.R
 
 ### Download Dataset
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## R Library Dependency
+## Library Dependency
+### R Library
 - library(data.table)
 - library(dplyr)
 
