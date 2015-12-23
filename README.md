@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Assignment
 
 ## Files
-### File Structure
+### File Structure (under same directory)
 -  [CodeBook.md](https://github.com/wrangle1005/Getting-and-Cleaning-Data-Assignment/blob/master/CodeBook.md)
 -  [README.md](https://github.com/wrangle1005/Getting-and-Cleaning-Data-Assignment/blob/master/README.md)
 -  UCI HAR Dataset (must exist)
@@ -22,4 +22,4 @@
 ## Instructions
 1. Make sure both dataset and R Library are ready.
 2. Open R terminal and type "source('run_analysis.R')"
-3. Fetch created dataset 'tidy_data.txt' and 'ave_tidy_data.txt' in 'UCI HAR Dataset'
+3. Fetch created dataset 'tidy_data.txt' and 'ave_tidy_data.txt' under 'UCI HAR Dataset' folder
