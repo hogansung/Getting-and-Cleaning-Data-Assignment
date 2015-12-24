@@ -46,11 +46,11 @@ colnames(x) = feature_config$featureLabel[target]
 # Merge the Dataset
 colnames(s) = 'subject'
 dat = cbind(s, x, y)
-write.table(dat, 'tidy_data.txt', sep=',', quote=FALSE)
+write.table(dat, 'tidy_data.txt', row.names=FALSE, sep=',', quote=FALSE)
 
 
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 dat = data.table(dat)
 dat = dat[, lapply(.SD, mean), by=c('subject', 'activityLabel')]
-write.table(dat, 'ave_tidy_data.txt', sep=',', quote=FALSE)
+write.table(dat, 'ave_tidy_data.txt', row.names=FALSE, sep=',', quote=FALSE)

@@ -4,8 +4,8 @@
 Data were collected from [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Variables
-- subjectId: first variable, 1 to 30 each representing a participant in the study
-- activityLabel: last variable; value varies from 1 to 6, which corresponds to WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING, respectively.
+- subjectId: first variable; value varies from 1 to 30, which means participant ID
+- activityLabel: last variable; value varies from 1 to 6, which corresponds to different activities
 - tBodyAcc-mean()-X
 - tBodyAcc-mean()-Y
 - tBodyAcc-mean()-Z
